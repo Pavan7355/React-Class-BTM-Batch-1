@@ -1,0 +1,11 @@
+body{
+    background-color: azure;
+}
+.heading{
+    color: green;
+    border: 5px solid red;
+    background-color: yellow;
+}
+#img{
+    border-radius: 50%;
+}
