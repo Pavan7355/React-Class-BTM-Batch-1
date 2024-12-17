@@ -1,33 +1,33 @@
-import React from "react";
-import './app.css'
-const name="viart"
+import React from 'react'
+import Header from './Components/Header';
+import Nav from './Components/Nav';
+import Aside from './Components/Aside';
+import Main from './Components/Main';
+import Footer from './Components/Footer';
+import Exmple1 from './Components1/Exmple1';
+
 function App() {
-  let styles={
-    backgroundColor:"grey",
-    color:"green",
-    fontSize:"20px",
-    textAlign:"center"
-  }
-  let imageurl="https://wallpapercave.com/wp/wp4097741.jpg"
-  return (
-    <>
-    <h1 className="heading">Welcome to react js class</h1>
-    <h2 style={{backgroundColor:"black",
-      color:"white",border:"5px dashed orange"
-    }}>Hello how are you</h2>
-    <h2 style={styles}>Welcome to javascript class</h2>
-    <p style={styles}>React js is libary</p>
-    {/* <h1>{name}</h1> */}
-    <h3>{20+89}</h3>
-  {/* <h1>welcome</h1> */}
-  <p>welcome to react js class</p>
-  <img id="img" height="200"  width="200" 
-  src={imageurl}    alt="noimage"/>
- <img src="sports-cars-1.jpg" alt="no-image"
- height="200"  width="200" />
- 
+
+return(
+  <>
+{/* <Child/>
+<Header/>
+<Nav/>
+<div style={{display:"flex",gap:"5px"}}>
+<Aside/>
+<Main/>
+</div>
+<Footer/> */}
+<Exmple1/>
   </>
-  )
+)
 }
+// function Child(){
+//   return(
+//     <>
+//     <h1>I am child component</h1>
+//     </>
+//   )
+// }
 
 export default App;
