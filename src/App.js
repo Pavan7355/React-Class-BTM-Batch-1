@@ -1,33 +1,23 @@
 import React from 'react'
-import Header from './Components/Header';
-import Nav from './Components/Nav';
-import Aside from './Components/Aside';
-import Main from './Components/Main';
-import Footer from './Components/Footer';
-import Exmple1 from './Components1/Exmple1';
+import PropsFunctional from './Props/PropsFunctional';
+import PropsClass from './Props/PropsClass';
+import DefaultProps from './Props/DefaultProps';
+
 
 function App() {
 
 return(
   <>
-{/* <Child/>
-<Header/>
-<Nav/>
-<div style={{display:"flex",gap:"5px"}}>
-<Aside/>
-<Main/>
-</div>
-<Footer/> */}
-<Exmple1/>
+{/* <PropsFunctional name="virat"/>
+<PropsFunctional name="sachin"/>
+<PropsClass city="Bangalore" imageurl="https://wallpaperset.com/w/full/2/d/b/483054.jpg"/>
+<PropsClass city="Mysore" imageurl="https://wallpaperset.com/w/full/2/d/b/483054.jpg"/> */}
+ <DefaultProps name="viart" age="36" city="mumbai"/>
+ <DefaultProps name="sachin" age="46"/>
+ <DefaultProps/>
   </>
 )
 }
-// function Child(){
-//   return(
-//     <>
-//     <h1>I am child component</h1>
-//     </>
-//   )
-// }
+
 
 export default App;
