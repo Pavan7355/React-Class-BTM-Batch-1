@@ -1,20 +1,26 @@
 import React from 'react'
-import PropsFunctional from './Props/PropsFunctional';
-import PropsClass from './Props/PropsClass';
-import DefaultProps from './Props/DefaultProps';
+import Example1 from './ReactConditional/Example1';
+import Example2 from './ReactConditional/Example2';
+import Example3 from './ReactConditional/Example3';
+// import ChangeState from './React State/ChangeState';
+// import Counter from './React State/Counter';
+// import ChangeImage from './React State/ChangeImage';
+// import Example1 from './ReactList/Example1';
 
-
+//import Example1 from './ReactkeyMap/Example1';
 function App() {
 
 return(
   <>
-{/* <PropsFunctional name="virat"/>
-<PropsFunctional name="sachin"/>
-<PropsClass city="Bangalore" imageurl="https://wallpaperset.com/w/full/2/d/b/483054.jpg"/>
-<PropsClass city="Mysore" imageurl="https://wallpaperset.com/w/full/2/d/b/483054.jpg"/> */}
- <DefaultProps name="viart" age="36" city="mumbai"/>
- <DefaultProps name="sachin" age="46"/>
- <DefaultProps/>
+{/* <ChangeState/> */}
+{/* <Counter/> */}
+{/* <ChangeImage/> */}
+{/* <Example1/> */}
+{/* <Example1/> */}
+{/* <Example1 isloggedIn={true}/>
+<Example1 isloggedIn={false}/> */}
+{/* <Example2 condition={false} name="virat"/> */}
+<Example3  condition={false} name="raj"/>
   </>
 )
 }
